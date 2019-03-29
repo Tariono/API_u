@@ -24,6 +24,6 @@ def debug_task(self):
 app.conf.beat_schedule={
                 'videos-every-10min': {
                 'task':'api_app.tasks.search_and_update',
-                'schedule': 10.0,
+                'schedule': 600.0,
                 }
 }
