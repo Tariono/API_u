@@ -1,5 +1,5 @@
 iso8601==0.1.12
-Django==2.1.9
+Django==2.2.13
 google_api_python_client==1.7.8
 djangorestframework==3.9.2
 celery==4.2.2
